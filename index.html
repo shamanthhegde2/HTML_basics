@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta tags gives more meaning to your website and makes it easier for search engine to recommend us while searched.There are a ton of meta tags each having its own use-->
+    <!--I took the meta tags which we normally use-->
+    <meta charset="UTF-8">
+    <meta name="author" content="shamanth hegde">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This webpage consists of basics of html">
+    <meta name="keywords" content="html basics shamanth hegde">
+
+
+    <!--the title tag is used to show webpage names at top of the tab-->
+    <title>HTML Basics</title>
+</head>
+
+<body>
+    <!--Heading tag:Both starting and ending tag are mandatory-->
+    <h1>Heading level 1</h1>
+    <h2>Heading level 2</h2>
+    <h3>Heading level 3</h3>
+    <h4>Heading level 4</h4>
+    <h5>Heading level 5</h5>
+    <h6>Heading level 6</h6>
+
+    <!--Break tag produces a line break and it is a self closing tag-->
+    <br>
+
+    <!--Horizontal rule tag is used to draw horizontal rule and is a self closing tag-->
+    <hr>
+
+    <!--p tag is used to group elements or texts into a paragraph-->
+    <p>This is a Paragraph tag</p>
+
+    <!--em tag is used to emphasised or make a word important by italicizing it and in this both starting and ending tag are mandotory-->
+    <p><em>empahasis or italicize texts</em></p>
+
+    <!--strong tag is used to make text bold and in this both starting and ending tags are mandatory-->
+    <p><strong>bolds the text</strong></p>
+
+    <!--Unordered list-->
+    <ul>
+        <li>Point 1</li>
+        <li>Point 2</li>
+        <li>Point 3</li>
+        <li>Point 4</li>
+    </ul>
+
+    <!--ordered list-->
+    <ol>
+        <li>Point 1</li>
+        <li>Point 1</li>
+        <li>Point 1</li>
+        <li>Point 1</li>
+    </ol>
+
+    <!--img tag is used to add images into the website and both starting and ending tags are mandatory-->
+    <img src="https://static.toiimg.com/thumb/msid-67586673,width-800,height-600,resizemode-75,imgsize-3918697,pt-32,y_pad-40/67586673.jpg"
+        alt="cat image">
+
+    <!--anchor tag is used to add hyperlinks inside your website it can be a link of an image or another html page and both starting and ending tags are mandatory-->
+    <p><a href="https://www.youtube.com/watch?v=ceKkCXkjfMU&list=RDMMceKkCXkjfMU&start_radio=1" target="_blank">Link to
+            one of my
+            favourite anime song</a></p>
+
+    <!--table tag is used to create tables in the website-->
+    <table>
+        <thead>
+            <tr>
+                <th>head 1</th>
+                <th>head 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>shamanth</td>
+                <td>chichken biriyani</td>
+            </tr>
+            <tr>
+                <td>Akhil</td>
+                <td>Pizza</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!--we normally dont use it-->
+        </tfoot>
+    </table>
+
+    <!--Form tag is normally used to take information from user-->
+    <form action="" method="post">
+        <label>Text Box:</label>
+        <input type="text" name="" id="" />
+        <br />
+        <label>Button:</label>
+        <!--button tag for buttons-->
+        <button>click me</button>
+        <br />
+        <label for="">checkbox:</label>
+        <input type="checkbox" name="" id="" />
+        <br />
+        <label for="">color:</label>
+        <input type="color" name="" id="" />
+        <br />
+        <label for="">Date:</label>
+        <input type="date" name="" id="" />
+        <br />
+        <label for="">Datetime:</label>
+        <input type="datetime-local" name="" id="" />
+        <br />
+        <label for="">Email:</label>
+        <input type="email" name="" id="" />
+        <br />
+        <label for="">File:</label>
+        <input type="file" name="" id="" />
+        <br />
+        <!--<input> elements of type hidden let web developers include data that cannot be seen or modified by users when a form is submitted. For example, the ID of the content that is currently being ordered or edited, or a unique security token. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page's content.-->
+        <label for="">Hidden:</label>
+        <input type="hidden" name="" />
+        <br />
+        <br>
+        <!--A graphical submit button. Displays an image defined by the src attribute. The alt attribute displays if the image src is missing.-->
+        <label for="">Image:</label>
+        <br>
+        <input type="image" src="https://interactive-examples.mdn.mozilla.net/media/examples/login-button.png"
+            alt="Login button" />
+        <br />
+        <label for="">Month:</label>
+        <input type="month" name="" id="" />
+        <br />
+        <label for="number">Number:</label>
+        <input type="number" name="" id="" />
+        <br />
+        <label for="">Password</label>
+        <input type="password" name="" id="" />
+        <br />
+        <label for="">Radio button:</label>
+        <input type="radio" name="" id="" />
+        <br />
+        <label for="">Range:</label>
+        <input type="range" name="" id="" />
+        <br />
+        <label>Reset Button:</label>
+        <input type="reset" value="Reset" />
+        <br />
+        <!-- the input:search is always accompanied with a search button to search for the info entered-->
+        <label for="">Search:</label>
+        <input type="search" name="" id="" />
+        <!-- an alternative for input:button well both can be used no issues-->
+        <button>Search:</button>
+        <br />
+        <input type="submit" value="Submit" />
+        <br />
+        <label for="">Telephone:</label>
+        <input type="tel" name="" id="" />
+        <br />
+        <label for="">Time:</label>
+        <input type="time" name="" id="" />
+        <br />
+        <label for="">URL:</label>
+        <input type="url" name="" id="" />
+        <br />
+        <label for="">Week:</label>
+        <input type="week" name="" id="" />
+        <br>
+        <!--Text area-->
+        <textarea name="text area" id="" cols="30" rows="10"></textarea>
+    </form>
+    <h2>small example for form tag</h2>
+    <!--small example for form tag-->
+    <form action="mailto:shamanthhegde12@gmail.com" method="post" enctype="text/plain">
+        <label for="">Your Name:</label>
+        <input type="text" name="Your Name" id="">
+        <br>
+        <label for="">Your Message::</label>
+        <br>
+        <textarea name="Your Message" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
